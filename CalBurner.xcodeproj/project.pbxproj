@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CC030315DDBDEC0010B171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC030215DDBDEC0010B171 /* UIKit.framework */; };
+		84CC030515DDBDEC0010B171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC030415DDBDEC0010B171 /* Foundation.framework */; };
+		84CC030715DDBDEC0010B171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC030615DDBDEC0010B171 /* CoreGraphics.framework */; };
+		84CC030D15DDBDEC0010B171 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CC030B15DDBDEC0010B171 /* InfoPlist.strings */; };
+		84CC030F15DDBDEC0010B171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC030E15DDBDEC0010B171 /* main.m */; };
+		84CC031315DDBDEC0010B171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC031215DDBDEC0010B171 /* AppDelegate.m */; };
+		84CC031615DDBDEC0010B171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC031515DDBDEC0010B171 /* ViewController.m */; };
+		84CC031915DDBDEC0010B171 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CC031715DDBDEC0010B171 /* ViewController.xib */; };
+		84CC032015DDBE2A0010B171 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC031F15DDBE2A0010B171 /* CoreLocation.framework */; };
+		84CC032215DDBE3A0010B171 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CC032115DDBE3A0010B171 /* MapKit.framework */; };
+		84CC032415DDD9FE0010B171 /* fells_loop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 84CC032315DDD9FE0010B171 /* fells_loop.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84CC02FE15DDBDEC0010B171 /* CalBurner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalBurner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CC030215DDBDEC0010B171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84CC030415DDBDEC0010B171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84CC030615DDBDEC0010B171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84CC030A15DDBDEC0010B171 /* CalBurner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalBurner-Info.plist"; sourceTree = "<group>"; };
+		84CC030C15DDBDEC0010B171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84CC030E15DDBDEC0010B171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CC031015DDBDEC0010B171 /* CalBurner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalBurner-Prefix.pch"; sourceTree = "<group>"; };
+		84CC031115DDBDEC0010B171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CC031215DDBDEC0010B171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CC031415DDBDEC0010B171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CC031515DDBDEC0010B171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CC031815DDBDEC0010B171 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84CC031F15DDBE2A0010B171 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84CC032115DDBE3A0010B171 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84CC032315DDD9FE0010B171 /* fells_loop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = fells_loop.gpx; path = CalBurner/fells_loop.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CC02FB15DDBDEC0010B171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CC032215DDBE3A0010B171 /* MapKit.framework in Frameworks */,
+				84CC032015DDBE2A0010B171 /* CoreLocation.framework in Frameworks */,
+				84CC030315DDBDEC0010B171 /* UIKit.framework in Frameworks */,
+				84CC030515DDBDEC0010B171 /* Foundation.framework in Frameworks */,
+				84CC030715DDBDEC0010B171 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CC02F315DDBDEC0010B171 = {
+			isa = PBXGroup;
+			children = (
+				84CC032315DDD9FE0010B171 /* fells_loop.gpx */,
+				84CC030815DDBDEC0010B171 /* CalBurner */,
+				84CC030115DDBDEC0010B171 /* Frameworks */,
+				84CC02FF15DDBDEC0010B171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CC02FF15DDBDEC0010B171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CC02FE15DDBDEC0010B171 /* CalBurner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CC030115DDBDEC0010B171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84CC032115DDBE3A0010B171 /* MapKit.framework */,
+				84CC031F15DDBE2A0010B171 /* CoreLocation.framework */,
+				84CC030215DDBDEC0010B171 /* UIKit.framework */,
+				84CC030415DDBDEC0010B171 /* Foundation.framework */,
+				84CC030615DDBDEC0010B171 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CC030815DDBDEC0010B171 /* CalBurner */ = {
+			isa = PBXGroup;
+			children = (
+				84CC031115DDBDEC0010B171 /* AppDelegate.h */,
+				84CC031215DDBDEC0010B171 /* AppDelegate.m */,
+				84CC031415DDBDEC0010B171 /* ViewController.h */,
+				84CC031515DDBDEC0010B171 /* ViewController.m */,
+				84CC031715DDBDEC0010B171 /* ViewController.xib */,
+				84CC030915DDBDEC0010B171 /* Supporting Files */,
+			);
+			path = CalBurner;
+			sourceTree = "<group>";
+		};
+		84CC030915DDBDEC0010B171 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CC030A15DDBDEC0010B171 /* CalBurner-Info.plist */,
+				84CC030B15DDBDEC0010B171 /* InfoPlist.strings */,
+				84CC030E15DDBDEC0010B171 /* main.m */,
+				84CC031015DDBDEC0010B171 /* CalBurner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CC02FD15DDBDEC0010B171 /* CalBurner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CC031C15DDBDEC0010B171 /* Build configuration list for PBXNativeTarget "CalBurner" */;
+			buildPhases = (
+				84CC02FA15DDBDEC0010B171 /* Sources */,
+				84CC02FB15DDBDEC0010B171 /* Frameworks */,
+				84CC02FC15DDBDEC0010B171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalBurner;
+			productName = CalBurner;
+			productReference = 84CC02FE15DDBDEC0010B171 /* CalBurner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CC02F515DDBDEC0010B171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Diana Zmuda";
+			};
+			buildConfigurationList = 84CC02F815DDBDEC0010B171 /* Build configuration list for PBXProject "CalBurner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84CC02F315DDBDEC0010B171;
+			productRefGroup = 84CC02FF15DDBDEC0010B171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CC02FD15DDBDEC0010B171 /* CalBurner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CC02FC15DDBDEC0010B171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CC030D15DDBDEC0010B171 /* InfoPlist.strings in Resources */,
+				84CC031915DDBDEC0010B171 /* ViewController.xib in Resources */,
+				84CC032415DDD9FE0010B171 /* fells_loop.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CC02FA15DDBDEC0010B171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CC030F15DDBDEC0010B171 /* main.m in Sources */,
+				84CC031315DDBDEC0010B171 /* AppDelegate.m in Sources */,
+				84CC031615DDBDEC0010B171 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84CC030B15DDBDEC0010B171 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CC030C15DDBDEC0010B171 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84CC031715DDBDEC0010B171 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CC031815DDBDEC0010B171 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CC031A15DDBDEC0010B171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CC031B15DDBDEC0010B171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CC031D15DDBDEC0010B171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalBurner/CalBurner-Prefix.pch";
+				INFOPLIST_FILE = "CalBurner/CalBurner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84CC031E15DDBDEC0010B171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalBurner/CalBurner-Prefix.pch";
+				INFOPLIST_FILE = "CalBurner/CalBurner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CC02F815DDBDEC0010B171 /* Build configuration list for PBXProject "CalBurner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CC031A15DDBDEC0010B171 /* Debug */,
+				84CC031B15DDBDEC0010B171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CC031C15DDBDEC0010B171 /* Build configuration list for PBXNativeTarget "CalBurner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CC031D15DDBDEC0010B171 /* Debug */,
+				84CC031E15DDBDEC0010B171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CC02F515DDBDEC0010B171 /* Project object */;
+}
